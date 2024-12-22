@@ -18,13 +18,14 @@ list_of_files = [".github/workflows/.gitkeep",
                  f"src/{project_name}/entity/__init__.py",
                  f"src/{project_name}/constants/__init__.py",
                  "config/config.yaml",
-                 "parmas/params.yaml",
+                 "params/params.yaml",
                  "app.py",
                  "main.py",
                  "Dockerfile",
                  "requirements.txt",
                  "setup.py",
                  "research/research.ipynb",
+                 ".gitignore",
                  "README.md"]
 
 for filepath in list_of_files:
